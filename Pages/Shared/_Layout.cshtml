@@ -9,7 +9,9 @@
   </head>
   <body class="bg-dark">
     <header class="bg-light">
-      <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-primary border-bottom box-shadow mb-3">
+      <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-primary border-bottom box-shadow mb-3"
+	   style="background: -webkit-linear-gradient(to bottom, rgba(79, 172, 254, 1), rgba(0, 242, 254, 1));
+		  background: linear-gradient(to bottom, #4facfe, #00f2fe)">
 	<div class="container">
 	  <a class="navbar-brand" asp-area="" asp-page="/Index">Campingpladsen</a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -29,7 +31,7 @@
 	</div>
       </nav>
     </header>
-    <div class="container bg-light">
+    <div class="container bg-transparent">d
       <div class="row justify-content-md-center">
 	<main role="main" class="pb-3">
 	  @RenderBody()
@@ -46,7 +48,6 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
     @await RenderSectionAsync("Scripts", required: false)
   </body>
 </html>
