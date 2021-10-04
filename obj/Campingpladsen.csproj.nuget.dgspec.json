@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/emil/Documents/Campingpladsen/Campingpladsen.csproj": {}
+    "/home/emil/Documents/Campingpladsen/Campingpladsen.csproj": {}
   },
   "projects": {
-    "/Users/emil/Documents/Campingpladsen/Campingpladsen.csproj": {
+    "/home/emil/Documents/Campingpladsen/Campingpladsen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/emil/Documents/Campingpladsen/Campingpladsen.csproj",
+        "projectUniqueName": "/home/emil/Documents/Campingpladsen/Campingpladsen.csproj",
         "projectName": "Campingpladsen",
-        "projectPath": "/Users/emil/Documents/Campingpladsen/Campingpladsen.csproj",
-        "packagesPath": "/Users/emil/.nuget/packages/",
-        "outputPath": "/Users/emil/Documents/Campingpladsen/obj/",
+        "projectPath": "/home/emil/Documents/Campingpladsen/Campingpladsen.csproj",
+        "packagesPath": "/home/emil/.nuget/packages/",
+        "outputPath": "/home/emil/Documents/Campingpladsen/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/emil/.nuget/NuGet/NuGet.Config"
+          "/home/emil/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/5.0.207/libexec/sdk/5.0.207/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/5.0.206/RuntimeIdentifierGraph.json"
         }
       }
     }
